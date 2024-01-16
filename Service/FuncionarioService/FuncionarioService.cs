@@ -129,7 +129,7 @@ namespace WebAPI_CRUD_Funcionario.Service.FuncionarioService
             {
                 FuncionarioModel funcionario = _context.Funcionarios.FirstOrDefault(x => x.Id == id);
 
-                if(funcionario == null)
+                if (funcionario == null)
                 {
                     serviceResponse.Dados = null;
                     serviceResponse.Mensagem = "Usuário não encontrado!";

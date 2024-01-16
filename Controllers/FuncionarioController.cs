@@ -42,8 +42,8 @@ namespace WebAPI_CRUD_Funcionario.Controllers
             return Ok(serviceResponse);
         }
 
-        [HttpPut("InativaFuncionario")]
-        public async Task<ActionResult<ServiceResponse<FuncionarioModel>>> InativaFuncionario(int id)
+        [HttpPut("InativaFuncionario/{id}")]
+        public async Task<ActionResult<ServiceResponse<List<FuncionarioModel>>>> InativaFuncionario(int id)
         {
             ServiceResponse<List<FuncionarioModel>> serviceResponse = await _funcionarioInterface.InativaFuncionario(id);
             return Ok(serviceResponse);

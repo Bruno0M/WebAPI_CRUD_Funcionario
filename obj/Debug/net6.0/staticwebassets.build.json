@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LnSEAVyg9B8NLvnrCAkELnaMVdtiDxFCzZzJzXprln4=",
+  "Source": "WebAPI_CRUD_Funcionario",
+  "BasePath": "_content/WebAPI_CRUD_Funcionario",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
